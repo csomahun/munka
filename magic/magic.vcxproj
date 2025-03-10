@@ -130,7 +130,7 @@
     <ClCompile Include="additional.c" />
     <ClCompile Include="Cards..c" />
     <ClCompile Include="Smily.c" />
-    <ClCompile Include="Source.c" />
+    <ClCompile Include="Main.c" />
     <ClCompile Include="inputHandler.c" />
     <ClCompile Include="strHandler.c" />
   </ItemGroup>
