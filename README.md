@@ -1,10 +1,14 @@
 # **README.MD** 
+## At first***
+- I used Visual Studio, but I regret it. I wanted to put the files in separate folders, but when I tried to run the program in VS, it said " Files path unknown". Sorry it looks like that. And the lesson-> don't use VS
 ## ***How to run***
 - There is a main function ***Main.c*** file that runs the whole program. You can give the function a .txt filename and it will do the job with the input text.
 - Unfortunately it can only read one line from the .txt, but it is easy to implement to read multiple lines. Since it was not declared in the task description, I decided to use this input format.
 - The output of the program will be the ***result*** of the function bool smarttext_recognize(char *text).
     - If it was a plain text, ***0*** will be displayed on the console.
     - If it was not a regular text, then ***specific fucntion*** will be called and ***1*** will be ***1***.
+## ***Tests***
+- There is 11 test tests in the program. In the main fucntion that section is commencted.
  ## ***Basic Rules***
 - output is true if
    - there are only 1/2/3 valid cards.

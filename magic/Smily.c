@@ -2,7 +2,7 @@
 
 Smily initSmilyS(void) {
 	Smily smily = {
-		.type = {":)",":-)",":-)"}
+		.type = {":)",":-)",":("}
 	};
 	return smily;
 }

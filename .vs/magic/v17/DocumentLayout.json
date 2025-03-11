@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|solutionrelative:magic\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Egyetem\\munka\\magic\\magic\\src\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:magic\\src\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|C:\\Egyetem\\munka\\magic\\magic\\test4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|solutionrelative:magic\\test4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Egyetem\\munka\\magic\\magic\\src\\Smily.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:magic\\src\\Smily.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|C:\\Egyetem\\munka\\magic\\magic\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|solutionrelative:magic\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|C:\\Egyetem\\munka\\magic\\magic\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|solutionrelative:magic\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +26,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Main.c",
-              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\src\\Main.c",
-              "RelativeDocumentMoniker": "magic\\src\\Main.c",
-              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\src\\Main.c",
-              "RelativeToolTip": "magic\\src\\Main.c",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-11T14:54:46.924Z"
+              "Title": "test4.txt",
+              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\test4.txt",
+              "RelativeDocumentMoniker": "magic\\test4.txt",
+              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\test4.txt",
+              "RelativeToolTip": "magic\\test4.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-11T16:27:09.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Smily.c",
-              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\src\\Smily.c",
-              "RelativeDocumentMoniker": "magic\\src\\Smily.c",
-              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\src\\Smily.c",
-              "RelativeToolTip": "magic\\src\\Smily.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Test.h",
+              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\Test.h",
+              "RelativeDocumentMoniker": "magic\\Test.h",
+              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\Test.h",
+              "RelativeToolTip": "magic\\Test.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T15:26:52.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test.c",
+              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\Test.c",
+              "RelativeDocumentMoniker": "magic\\Test.c",
+              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\Test.c",
+              "RelativeToolTip": "magic\\Test.c",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-11T14:54:46.038Z"
+              "WhenOpened": "2025-03-11T15:18:35.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,9 +75,9 @@
               "RelativeDocumentMoniker": "magic\\Main.c",
               "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\Main.c",
               "RelativeToolTip": "magic\\Main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-11T13:28:52.082Z",
+              "WhenOpened": "2025-03-11T15:25:27.237Z",
               "EditorCaption": ""
             }
           ]
