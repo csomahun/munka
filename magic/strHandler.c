@@ -3,6 +3,9 @@
 #include "Smily.h"
 #include "Cards.h"
 
+
+//seprate the whole str to smaleler str
+
 char* strSeparater(char* str,int iter ) {
 	char sep[4];
 
@@ -19,6 +22,8 @@ char* strSeparater(char* str,int iter ) {
 }
 
 
+//checks if the smaler str is a valid card or smiley
+
 bool isTrue(char* str,char *text) {
     bool tCard = false;
     bool tColor = false;
@@ -27,8 +32,8 @@ bool isTrue(char* str,char *text) {
     Smily smily = initSmilyS();
     
     //smiley
-    if (strcmp(str, ":-)")==0) tSmily = true;
-    else if (str[0] == ':') {
+    //if statement checks if its the 
+    if (str[0] == ':') {
         for (int i = 0; i < sizeof(smily.type); i++) {
             //printf("%c-%c\n", str[iter], myColor[i]);
             if (strcmp(str, smily.type[i])==0) tSmily = true;
@@ -39,8 +44,8 @@ bool isTrue(char* str,char *text) {
     else if(strlen(text) > 2 && tSmily)return false;
 
 
-    //cards
-
+    //checks if its a valid card
+    // if statemant checks if its a 10 or not
     if (str[0] == '1' && str[1] == '0') {
         tCard = true;
     }

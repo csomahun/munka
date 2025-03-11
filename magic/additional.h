@@ -1,7 +1,6 @@
 #pragma once
 #ifndef ADDITIONAL_H
 #define ADDITIONAL_H
-#include <stdbool.h>
 #include <stdio.h>
 
 
