@@ -8,6 +8,6 @@ int main() {
     strcpy(str,myFileReader("test1.txt"));
     bool res = smarttext_recognize(str);
     
-
+    printf("%d", res);
     return 0;
 }
