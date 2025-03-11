@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\magic",
+    "\\magic\\src"
   ],
-  "SelectedNode": "\\magic.sln",
+  "SelectedNode": "\\magic\\magic.vcxproj",
   "PreviewInSolutionExplorer": false
 }

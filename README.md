@@ -1,39 +1,40 @@
 # **README.MD** 
 ## ***How to run***
-- There is a main function ***Main.c*** file, wich runs the whole program. You can give a .txt file name to the function and will do the task on the input text.
-- Unfortunately it can only read one line from the .txt but it can be easily implement, to read more lines. Because it was not declared in the task description, so I decided by this input form.
-- The output of the program will be the ***result*** of the bool smarttext_recognize(char *text) function.
-    - if it was a regular text,than ***0*** will be shown on the consol
-    - if it was not a regular text, than the ***specifed fucntion*** will be called and a ***1***
- ## ***Ground rules***
-- the output is true, if
-   -  there is only 1/2/3 valid cards
-   -  there is only 1 smily
+- There is a main function ***Main.c*** file that runs the whole program. You can give the function a .txt filename and it will do the job with the input text.
+- Unfortunately it can only read one line from the .txt, but it is easy to implement to read multiple lines. Since it was not declared in the task description, I decided to use this input format.
+- The output of the program will be the ***result*** of the function bool smarttext_recognize(char *text).
+    - If it was a plain text, ***0*** will be displayed on the console.
+    - If it was not a regular text, then ***specific fucntion*** will be called and ***1*** will be ***1***.
+ ## ***Basic Rules***
+- output is true if
+   - there are only 1/2/3 valid cards.
+   - there is only 1 smily
    
--  the output is false, if
-   - there is 4 valid cards
-   - there is only 1 valid card and some text
-   - there is only 1 smily  and some text
-   - one of the smaler string is 1 or more than 4 character long
-   - if the given text is more than 12 character long
-   - if there is more than 1 spaces between smaler strings
+- the output is false if
+   - there are 4 valid cards
+   - only 1 valid card and some text
+   - only 1 smily and some text
+   - one smily string is 1 or more than 4 characters long
+   - if the given text is more than 12 characters long
+   - if there is more than 1 space between smaler strings
    - ...
-## ***How does it works***
--  In the ***main*** fucntion the ***myFileReader*** function will be called. This function opens and processes the given files text format like this:    
-    -  it will read only a 12 character long text, because a not regular text is maximum 11 char long + '\0
-    -  if there was a problem with the file, than exits with a faliur
-    -  First of all it gets rid of the spaces at the beginning of the text
-    -  Tahn it reads the characters if its not a space or a '\n'.
-    -  The myLen atribut count the lenght of the smaler string
-    -  my_swich checks if the char before the curentrly char is a space or not
-      - if the the program reads a space char and the size of the  myLenis 1 thant the word is only 1 char long=> ragular text
-    - the spaceCounter counts the spaces. It checks if there is maximum 3 strings int the text
-    -  and at the end gets rid of the remaining spaces of the text
--  Than the strSeparater will be called
-    - strSeparater fucntion just separate the string to 1/2/3 smaler strings
-- than the isTrue function gets a smaler string and decides if its  valid card or valid smily
-  - if its a valid card or valid smily than it gives back a "true"
-  - if its not than a "false"
-- And at the end the  smarttext_recognize:  
-  - if its a regular text calles nothing
-  - if its not than calles the given funtion 
+## ***How it works***
+- In the ***main*** fucntion, call the ***myFileReader*** function. This function opens and processes the specified files in text format, so:    
+    - will only read text 12 characters long, because a non-regular text is at most 11 characters long + '\0
+    - If there is a problem with the file, it will exit with a wall shortcut.
+    - First, it will remove the spaces at the beginning of the text.
+    - Then it reads in the characters if they are not spaces or '\n'.
+    - The myLen attribute counts the length of the smaller string.
+    - The my_swich checks whether the character before the current character is a space or not.
+      - if the program reads a space character and the size of myLen is 1, then the word is only 1 character long=> ragular text
+    - spaceCounter counts the spaces. It checks if the text has up to 3 strings.
+    - and at the end it gets rid of the remaining spaces in the text.
+- Then strSeparater is called.
+    - The strSeparater fucntion just separates the string into 1/2/3 smaller strings.
+- The isTrue function gets the smaller string and decides whether it is a valid card or a valid smily.
+  - if it is a valid card or a valid smily, it returns true.
+  - If not, it returns false.
+- At the end, smarttext_recognize:  
+  - if it is a plaintext, then it does not call anything
+  - if not, it calls the function. 
+  

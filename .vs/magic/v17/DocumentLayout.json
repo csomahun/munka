@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|C:\\Egyetem\\munka\\magic\\magic\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4C7793DA-7F72-4C40-9621-40CEBA9EED77}|magic\\magic.vcxproj|solutionrelative:magic\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Egyetem\\munka\\magic\\magic\\src\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:magic\\src\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Egyetem\\munka\\magic\\magic\\src\\Smily.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:magic\\src\\Smily.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\src\\Main.c",
+              "RelativeDocumentMoniker": "magic\\src\\Main.c",
+              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\src\\Main.c",
+              "RelativeToolTip": "magic\\src\\Main.c",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T14:54:46.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Smily.c",
+              "DocumentMoniker": "C:\\Egyetem\\munka\\magic\\magic\\src\\Smily.c",
+              "RelativeDocumentMoniker": "magic\\src\\Smily.c",
+              "ToolTip": "C:\\Egyetem\\munka\\magic\\magic\\src\\Smily.c",
+              "RelativeToolTip": "magic\\src\\Smily.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T14:54:46.038Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
