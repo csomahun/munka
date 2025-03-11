@@ -1,2 +1,6 @@
-﻿  Main.c
+﻿  strHandler.c
+C:\Egyetem\munka\magic\magic\strHandler.c(39,17): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Egyetem\munka\magic\magic\strHandler.c(42,10): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Egyetem\munka\magic\magic\strHandler.c(86,13): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Egyetem\munka\magic\magic\strHandler.c(21,1): warning C4172: returning address of local variable or temporary : sep
   magic.vcxproj -> C:\Egyetem\munka\magic\x64\Debug\magic.exe
